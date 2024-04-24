@@ -50,17 +50,17 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      Technologie de
       <a
         ref={liteBadge}
-        href={'https://www.growthscalinglab.com'}
+        href={'https://www.kwolk.com'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Growth Scaling Lab</span>
+        <span> Kwolk</span>
       </a>
     </span>
   );
